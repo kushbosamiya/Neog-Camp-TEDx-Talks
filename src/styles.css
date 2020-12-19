@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  max-width: 100vw;
+}
+/* nav-div */
+#navdiv {
+  padding: 0.5rem;
+  /* text-align: left; */
+}
+
+#logo {
+  font-size: 4rem;
+  font-weight: 900;
+  color: red;
+  text-decoration: none;
+}
+/* after nav */
+#head-para-1 {
+  line-height: 5rem;
+  font-size: 4rem;
+  font-weight: 200;
+  color: #222222;
+}
+#para-1 {
+  margin: auto;
+  padding-top: 1rem;
+
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  font-size: 1.3rem;
+
+  text-align: center;
+  /* background-color: #dad3d379; */
+
+  max-width: 50vw;
+  margin: auto;
+}
+/* btn */
+#btn-para {
+  margin: 1.5rem;
+  text-align: center;
+}
+#btn-click {
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: #ffffff;
+  background-color: #545454;
+  border-radius: 0.2rem;
+  max-width: 80vw;
+  text-decoration: none;
+}
+
+/* genre -btn */
+
+.genre {
+  color: red;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+#genre-div {
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 80vw;
+}
+#genre-1 {
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  border: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background: #fff;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+}
+#genre-2 {
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  border: none;
+  background: #fff;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+}
+#genre-3 {
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  border: none;
+  background: #fff;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+#genre-1:hover {
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.363);
+  transition: box-shadow 1s;
+}
+#genre-2:hover {
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.363);
+  transition: box-shadow 1s;
+}
+#genre-3:hover {
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.363);
+  transition: box-shadow 1s;
+}
+
+/* list */
+li {
+  font-size: 1.5rem;
+  list-style: none;
+  border: 1px solid red;
+  background: #fff;
+  margin-top: 1.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+li:hover {
+  box-shadow: 0 0 11px rgba(163, 33, 33, 0.603);
+  transition: box-shadow 1s;
+}
+small {
+  font-weight: bold;
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
